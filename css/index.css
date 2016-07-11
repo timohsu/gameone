@@ -1,0 +1,38 @@
+.photos{
+	margin: 10px;
+	padding: 10px;
+	float:left;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #7c7c7c;
+	transition: transform 0.3s linear;
+	position: relative;
+	overflow: hidden;
+}
+
+.photos:hover img{
+	transform:scale(1.05);
+}
+
+.photos img {
+	height: 150px;
+	display: block;
+	transition: transform 0.3 linear;
+}
+
+.photos:hover p{}
+
+.photos p{
+	font-family: "arial black";
+	font-size:14px;
+	color: #7c7c7c;
+	text-align: center;
+	transition: all 0.3s linear;
+	position:absolute;
+	height: 30px;
+	bottom: -30px;
+}
+body {
+	background-image: url(../img/bg3.JPG);
+	background-position: no-repeat center center;
+}
